@@ -1,0 +1,23 @@
+body{
+    background-color: teal;
+
+}
+
+td{
+
+    border: 1px solid salmon;
+
+}
+
+table{
+    border: 2px solid white;
+    width: 50%;
+    height: 300px;
+
+}
+
+tr{
+    border: 3px dotted white;
+    height: 50%;
+}
+
