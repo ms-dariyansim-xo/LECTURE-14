@@ -13,11 +13,15 @@ table{
     border: 2px solid white;
     width: 50%;
     height: 300px;
+    margin: 0 auto;
 
 }
 
 tr{
     border: 3px dotted white;
-    height: 50%;
+    height: 50px;
 }
 
+th{
+    color: purple;
+}
