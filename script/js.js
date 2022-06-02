@@ -2,9 +2,22 @@
 //alert();
 
 const display = document.getElementsByClassName("display");
+const userInput = document.getElementsByClassName("input");
+const btnDisplay = document.get
 
-for(let i = 0; i <display.length; i++){
-    display[i].innerHTML = "<b>This works</b>"
+
+function DisplayInfo(){
+
+for(let i = 0; i < userInput.length; i++){
+    display.innerText =+ userInput[i].value + "\n"; 
 }
+
+}
+
+
+
+
+
+
 //Manipulated:
 //display.innerText = "<b>text</b>"
