@@ -5,11 +5,12 @@ const display = document.getElementsByClassName("display");
 const userInput = document.getElementsByClassName("input");
 const btnDisplay = document.get
 
+btnDisplay.addEventListener('click', DisplayInfo);
 
 function DisplayInfo(){
 
 for(let i = 0; i < userInput.length; i++){
-    display.innerText =+ userInput[i].value + "\n"; 
+    display.innerText =+ userInput[i].value + "/n"; 
 }
 
 }
