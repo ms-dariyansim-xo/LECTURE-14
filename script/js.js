@@ -2,7 +2,6 @@
 //alert();
 
 const display = document.getElementsByClassName("display")[0];
-const btnDisplay = document.getElementbyId();
 
 alert(display.innerHTML);
 
